@@ -1,2 +1,9 @@
 CUSTOMED BY s_tajima 2011/04/18
 
+assign :
+$test = "test_message";
+$this->smarty->assign('test', $test);
+
+call template :
+ex.) call /templates/welcome.tpl
+$this->smarty->view('welcome.tpl');
